@@ -1,0 +1,31 @@
+<div>
+    <h1 class=" mt-5 text-center " >ADD PRODUCT </h1>
+
+</div>
+
+<div class="row mt-5 m-5">
+
+    <div class="col-2">
+
+        <input [(ngModel)]="produit.name"   type="text" class="form-control" m-1 placeholder="name">
+    </div>
+
+    <div class="col-2">
+        <input [(ngModel)]="produit.about"  type="text" class="form-control" m-1 placeholder="about">
+    </div>
+    
+    <div class="col-2">
+        <input [(ngModel)]="produit.prix"   type="text" class="form-control" m-1 placeholder="prix">
+    </div>
+
+    
+    <div class="col-2">
+        <input [(ngModel)]="produit.image"   type="text" class="form-control" m-1 placeholder="image">
+    </div>
+    
+
+    <div class="col-2">
+       <button (click)="ajout()" class="btn form-control text-light">Ajouter</button>
+    </div>
+</div>
+
